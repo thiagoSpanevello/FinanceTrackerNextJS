@@ -1,5 +1,6 @@
 import Money from "../../../public/a.jpg";
 import Image from 'next/image'
+import Link from 'next/link'
 import { SiWalletconnect } from "react-icons/si";
 export function Hero() {
     return (
@@ -19,15 +20,19 @@ export function Hero() {
                             Track your expenses, manage your budget, and achieve your financial goals with our intuitive finance tracker. Stop guessing where your money goes. Our powerful, easy-to-use platform gives you clarity on every transaction, allowing you to create smart budgets, reduce unnecessary spending, and secure your future. Start making confident financial decisions today.
                         </p>
                         <div className="flex grid-cols-2 gap-10 pt-10">
-                            <a
-                                href=""
+                            <Link
+                                href="/register"
                                 className="w-fit bg-white px-10 py-3 text-[#02bafa] rounded-xl font-semibold flex items-center justify-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-primary/10"
-                            >Get Started Free</a>
+                            >
+                                Get Started Free
+                            </Link>
 
-                            <a
-                                href=""
+                            <Link
+                                href="/login"
                                 className="w-fit bg-[#02bafa] text-white px-10 py-3 rounded-xl font-semibold flex items-center justify-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-primary/10"
-                            >Login</a>
+                            >
+                                Login
+                            </Link>
                         </div>
                     </div>
 
