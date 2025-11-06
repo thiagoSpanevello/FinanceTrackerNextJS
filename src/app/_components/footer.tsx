@@ -13,39 +13,38 @@ export function Footer() {
                             <span className="text-2xl font-bold">Finance Tracker</span>
                         </div>
                         <p className="text-muted-foreground max-w-md">
-                            Sua plataforma completa para gestão financeira pessoal.
-                            Controle, planeje e alcance seus objetivos.
+                            Your complete platform for personal financial management.
+                            Control, plan, and achieve your goals.
                         </p>
                     </div>
 
                     {/* Links */}
                     <div>
-                        <h4 className="font-semibold mb-4">Produto</h4>
+                        <h4 className="font-semibold mb-4">Product</h4>
                         <ul className="space-y-2 text-muted-foreground">
-                            <li><a href="#" className="hover:text-primary transition-colors">Recursos</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Preços</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Segurança</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Atualizações</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">Resources</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">Prices</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">Security</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">Updates</a></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h4 className="font-semibold mb-4">Empresa</h4>
+                        <h4 className="font-semibold mb-4">Firm</h4>
                         <ul className="space-y-2 text-muted-foreground">
-                            <li><a href="#" className="hover:text-primary transition-colors">Sobre Nós</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
                             <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Carreiras</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Contato</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-border pt-8 text-center text-muted-foreground">
-                    <p>© {currentYear} Finance Tracker. Todos os direitos reservados.</p>
+                    <p>© {currentYear} Finance Tracker. All rights reserved.</p>
                 </div>
             </div>
         </footer>
     );
 };
-
-export default Footer;
+''
